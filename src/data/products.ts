@@ -16,7 +16,7 @@ export const mockProducts: Product[] = [
     description: "Juego completo ideal para fiestas y eventos grandes.",
     image: "/bolirana.jpg",
     price: 120000,
-    features: ["Incluye 10 fichas", "Madera resistente", "Medidas estándar"],
+    features: ["Incluye 6 fichas", "Madera resistente", "Medidas estándar"],
   },
   {
     id: "rana",
