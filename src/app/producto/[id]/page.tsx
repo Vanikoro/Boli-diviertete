@@ -1,8 +1,14 @@
 import Image from "next/image";
 import { mockProducts } from "@/data/products";
 
-export default function ProductPage({ params }: { params: { id: string } }) {
-  const product = mockProducts.find((p) => p.id === params.id);
+export default async function ProductPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+
+  const product = mockProducts.find((p) => p.id === id);
 
   if (!product) {
     return (
@@ -45,9 +51,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
       </p>
 
       {/* BUTTON */}
-      <button
-        className="mt-10 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition"
-      >
+      <button className="mt-10 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition">
         Reservar ahora
       </button>
     </section>
