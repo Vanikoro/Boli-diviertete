@@ -46,6 +46,7 @@ export function GaleriaModal({ servicio, onClose }: GaleriaModalProps) {
                 src={fotoPrincipal}
                 alt={servicio.nombre}
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover animate-in fade-in zoom-in duration-300"
               />
             </div>
@@ -65,6 +66,7 @@ export function GaleriaModal({ servicio, onClose }: GaleriaModalProps) {
                     src={img}
                     alt="Vista previa"
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover"
                   />
                 </button>
