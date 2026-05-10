@@ -1,0 +1,85 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL(
+  process.env.NODE_ENV === "development" 
+    ? "http://localhost:3000" 
+    : "https://www.bolidiviertete.com"
+),
+  title:
+    "Boli-Diviértete - Alquiler de Juegos Tradicionales en Bogotá y la Sabana",
+  description:
+    "Alquiler de boliranas, tejos y juegos tradicionales para eventos sociales y empresariales en Bogotá y la Sabana. ¡Lleva la diversión a tu fiesta con Boli-Diviértete!",
+  keywords: [
+    "alquiler de juegos tradicionales",
+    "boliranas en Bogotá",
+    "tejos para eventos sociales",
+  ],
+  openGraph: {
+    title:
+      "Boli-Diviértete - Alquiler de Juegos Tradicionales en Bogotá y la Sabana",
+    description:
+      "Alquiler de boliranas, tejos y juegos tradicionales para eventos sociales y empresariales en Bogotá y la Sabana. ¡Lleva la diversión a tu fiesta con Boli-Diviértete!",
+    url: "https://www.bolidiviertete.com",
+    siteName: "Boli-Diviértete",
+    images: [
+      {
+        url: "/og-image.jpg", // Crea una imagen de 1200x630 y ponla en public/
+        width: 1200,
+        height: 630,
+        alt: "Boli-Diviértete Alquiler de Juegos",
+      },
+    ],
+    locale: "es_CO",
+    type: "website",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="es"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col">
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Boli-Diviértete",
+              image: "https://www.bolidiviertete.com/logo.png",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Carrera 77L bis #48B 17 sur",
+                addressLocality: "Bogotá",
+                addressCountry: "CO",
+              },
+              telephone: "+573118417533",
+              url: "https://www.bolidiviertete.com",
+              openingHours: "Mo-Su 07:30-19:00",
+            }),
+          }}
+        />
+      </body>
+    </html>
+  );
+}
