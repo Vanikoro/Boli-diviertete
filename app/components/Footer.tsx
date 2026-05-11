@@ -85,6 +85,10 @@ export function Footer() {
                 <span>+57 3118417533</span>
               </li>
               <li className="flex items-center gap-3">
+                <Phone size={18} className="text-boli-blue shrink-0" />
+                <span>+57 310 4718156</span>
+              </li>
+              <li className="flex items-center gap-3">
                 <Mail size={18} className="text-boli-blue shrink-0" />
                 <span>boli.diviertete@gmail.com</span>
               </li>
@@ -97,7 +101,7 @@ export function Footer() {
             </h4>
             <p className="text-sm">Lunes a Domingo</p>
             <p className="text-lg font-semibold text-white">
-              7:30 AM — 7:00 PM
+              8:00 AM — 6:00 PM
             </p>
             <p className="text-xs mt-2 text-slate-500">
               *Sujeto a disponibilidad del servicio.

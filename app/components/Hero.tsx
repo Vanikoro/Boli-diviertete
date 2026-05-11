@@ -44,7 +44,7 @@ export default function Hero() {
         >
           <div className="w-full h-100 bg-blue-100 rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center">
             <Image
-              src="/hero-bolirana.jpg"
+              src="/hero_full.jpeg"
               alt="Bolirana Principal"
               width={500}
               height={500}
