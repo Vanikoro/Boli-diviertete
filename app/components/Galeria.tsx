@@ -3,12 +3,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const FOTOS = [
-  "/galeria-1.jpg",
-  "/galeria-2.jpg",
-  "/galeria-3.jpg",
-  "/galeria-4.jpg",
-  "/galeria-5.jpg",
-  "/galeria-6.jpg",
+  "/trayectoria/galeria-1.jpg",
+  "/trayectoria/galeria-2.jpg",
+  "/trayectoria/galeria-3.jpg",
+  "/trayectoria/galeria-4.jpg",
+  "/trayectoria/galeria-5.jpg",
+  "/trayectoria/galeria-6.jpg",
+  "/trayectoria/galeria-7.jpg",
+  "/trayectoria/galeria-8.jpg",
 ];
 
 export function Galeria() {
