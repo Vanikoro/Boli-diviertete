@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { Catalogo } from "../components/Catalogo";
-import WhatsAppFloat from "../components/WhatsAppFloat";
 
 export default function PaginaCatalogo() {
   return (
@@ -13,7 +12,6 @@ export default function PaginaCatalogo() {
       </div>
       
       <Catalogo limitar={false} />
-      <WhatsAppFloat />
       
       <footer className="py-10 text-center text-slate-400 text-sm">
         Boli-Diviértete © 2026 - Todos los derechos reservados
