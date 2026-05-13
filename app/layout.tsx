@@ -83,11 +83,8 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         {children}
         
-        {/* Componentes Globales */}
         <WhatsAppFloat />
         <Analytics />
-
-        {/* SEO Estructurado (JSON-LD) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -105,7 +102,7 @@ export default function RootLayout({
               "telephone": "+573118417533",
               "url": "https://www.bolidiviertete.com",
               "openingHours": "Mo-Su 07:30-19:00",
-              "priceRange": "$$", // Opcional: indica rango de precios
+              "priceRange": "$$",
             }),
           }}
         />

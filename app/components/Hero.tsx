@@ -40,36 +40,32 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-  initial={{ opacity: 0, scale: 0.8 }}
-  animate={{ opacity: 1, scale: 1 }}
-  transition={{ duration: 0.8, delay: 0.2 }}
-  className="md:w-1/2 mt-12 md:mt-0 relative px-4 md:px-0"
->
-  <div className="relative w-full h-87.5 md:h-125 bg-slate-50 flex items-center justify-center overflow-hidden">
-    {/* 
-      En móvil usamos width y height fijos (pero responsivos) 
-      y en PC dejamos que el fill haga su trabajo. 
-    */}
-    <Image
-      src="/hero_full.jpeg"
-      alt="Bolirana Principal"
-      width={400} 
-      height={500}
-      priority
-      className="hidden max-md:block object-contain p-2 scale-110"
-    />
-    
-    <Image
-      src="/hero_full.jpeg"
-      alt="Bolirana Principal"
-      fill
-      className="hidden md:block object-contain p-4 scale-100"
-      sizes="50vw"
-    />
-  </div>
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="md:w-1/2 mt-12 md:mt-0 relative px-4 md:px-0"
+        >
+          <div className="relative w-full h-87.5 md:h-125 bg-slate-50 flex items-center justify-center overflow-hidden">
+            <Image
+              src="/hero_full.jpeg"
+              alt="Bolirana Principal"
+              width={400}
+              height={500}
+              priority
+              className="hidden max-md:block object-contain p-2 scale-110"
+            />
 
-  <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-boli-blue/15 blur-3xl rounded-full z-0" />
-</motion.div>
+            <Image
+              src="/hero_full.jpeg"
+              alt="Bolirana Principal"
+              fill
+              className="hidden md:block object-contain p-4 scale-100"
+              sizes="50vw"
+            />
+          </div>
+
+          <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-boli-blue/15 blur-3xl rounded-full z-0" />
+        </motion.div>
       </div>
     </section>
   );

@@ -38,9 +38,8 @@ export function Galeria() {
               <Image
                 src={src}
                 alt={`Evento ${index}`}
-                width={500} // O las medidas que prefieras
+                width={500}
                 height={600}
-                // Si es la primera imagen de la galería, que cargue con prioridad
                 priority={index === 0}
                 className="w-full h-auto object-cover hover:opacity-90 transition-opacity"
               />
