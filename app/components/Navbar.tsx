@@ -17,8 +17,6 @@ export function Navbar() {
   return (
     <nav 
       className={`fixed top-0 w-full z-100 transition-all duration-300 ${
-        // En móvil (bg-white) siempre tiene fondo para que no se pierda el logo
-        // En desktop (md:bg-transparent) solo se pone blanco al hacer scroll
         isScrolled 
           ? "bg-white/95 backdrop-blur-md shadow-sm py-2" 
           : "bg-white md:bg-transparent py-4 md:py-6"
@@ -26,22 +24,18 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         
-        {/* Logo - Ajustado para que no sea gigante en móvil */}
         <div className="scale-90 md:scale-100 origin-left">
           <Logo />
         </div>
 
-        {/* Navegación Derecha */}
         <div className="flex items-center gap-4 md:gap-8">
-          {/* Links: Ocultos en móvil, se ven desde md (768px) */}
-          <div className="hidden md:flex items-center gap-8 text-sm font-bold text-slate-700">
+         <div className="hidden md:flex items-center gap-8 text-sm font-bold text-slate-800">
             <a href="#" className="hover:text-boli-blue transition-colors">Inicio</a>
             <a href="#catalogo" className="hover:text-boli-blue transition-colors">Catálogo</a>
             <a href="#galeria" className="hover:text-boli-blue transition-colors">Galería</a>
           </div>
 
-          {/* Botón de Acción: Siempre visible pero ajustado */}
-          <a 
+         <a 
             href="https://wa.me/573118417533" 
             target="_blank"
             rel="noopener noreferrer"

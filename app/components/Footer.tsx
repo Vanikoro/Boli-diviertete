@@ -28,7 +28,7 @@ export function Footer() {
               <a href="https://www.tiktok.com/@club.boli.pola?_r=1&_t=ZS-91ruQPdgWOn" target="_blank" className="hover:text-boli-blue transition-colors">
                 <FaTiktok size={40} />
               </a>
-              <a href="https://wa.me/573118417533" target="_blank" className="hover:text-boli-blue transition-colors">
+              <a href="https://wa.me/573104718156" target="_blank" className="hover:text-boli-blue transition-colors">
                 <FaWhatsapp size={40} />
               </a>
             </div>

@@ -1,30 +1,46 @@
 export const servicios = [
   {
     id: 1,
-    nombre: "Alquiler de Carpa 3x3",
+    nombre: "Bolirana Digital (24h)",
     precio: 80000,
-    categoria: "Logística",
+    categoria: "Juegos",
     descripcion:
-      "Carpa tipo araña de alta resistencia en lona OXFORD. Impermeable, con protección UV y montaje rápido tipo acordeón. Ideal para eventos sociales y ferias.",
+      "Tecnología de punta con múltiples modos de juego (Bolitejo, Fútbol, Tiro al blanco). Voces animadas y luces LED.",
     detalles: [
-      "Material: Lona OXFORD resistente",
-      "Protección: Impermeable y Rayos UV",
-      "Montaje: Sistema acordeón (menos de 1 min)",
-      "Uso: Versátil para jardín o ferias",
+      "Hasta 50 jugadores",
+      "Sensores de alta precisión",
+      "Sonido y luces LED",
+      "Medidas: 1.50m alto x 1.30m largo",
     ],
-    notaTransporte: "El servicio de traslado es adicional según la ubicación.",
     imagenes: [
-      "/servicios/carpa-1.jpg",
-      "/servicios/carpa-2.jpg",
-      "/servicios/carpa-3.jpg",
-      "/servicios/carpa-4.jpg",
-      "/servicios/carpa-5.jpg",
-      "/servicios/carpa-6.jpg",
-      "/servicios/carpa-7.jpg",
-  ],
+      "/servicios/bolirana-digital-1.jpg",
+      "/servicios/bolirana-digital-2.jpg",
+      "/servicios/bolirana-digital-3.jpg",
+      "/servicios/bolirana-digital-4.jpg",
+      "/servicios/bolirana-digital-5.jpg",
+      "/servicios/bolirana-digital-6.jpg",
+      "/servicios/bolirana-digital-7.jpg",
+      "/servicios/bolirana-digital-8.jpg",
+      "/servicios/bolirana-digital-9.jpg",
+    ],
   },
   {
     id: 2,
+    nombre: "Canchas de Mini Tejo (24h)",
+    precio: 80000,
+    categoria: "Juegos",
+    descripcion:
+      "Lleva el deporte nacional a tu evento. Canchas completas con greda, mechas y tejos profesionales.",
+    detalles: ["2 Canchas de mini tejo", "1 Pizón", "6 Tejos", "60 Mechas"],
+    imagenes: [
+      "/servicios/minitejo-1.jpg",
+      "/servicios/minitejo-2.jpg",
+      "/servicios/minitejo-3.jpg",
+      "/servicios/minitejo-4.jpg",
+    ],
+  },
+  {
+    id: 3,
     nombre: "Mini Golfito",
     precio: 80000,
     categoria: "Juegos",
@@ -49,7 +65,53 @@ export const servicios = [
     ],
   },
   {
-    id: 3,
+    id: 4,
+    nombre: "Boli Kids - Especial Niños (24h)",
+    precio: 80000,
+    categoria: "Juegos",
+    descripcion:
+      "Bolirana digital diseñada específicamente para los más pequeños con temáticas infantiles y medidas ajustadas.",
+    detalles: [
+      "Medidas: 1.30m alto (ajustada para niños)",
+      "Temática de personajes",
+      "Voces infantiles",
+      "Hasta 50 jugadores",
+    ],
+    imagenes: [
+      "/servicios/boli-kids-3.jpg",
+      "/servicios/boli-kids-2.jpg",
+      "/servicios/boli-kids-5.jpg",
+      "/servicios/boli-kids-6.jpg",
+      "/servicios/boli-kids-7.jpg",
+      "/servicios/boli-kids-9.jpg",
+    ],
+  },
+  {
+    id: 5,
+    nombre: "Alquiler de Carpa 3x3",
+    precio: 80000,
+    categoria: "Logística",
+    descripcion:
+      "Carpa tipo araña de alta resistencia en lona OXFORD. Impermeable, con protección UV y montaje rápido tipo acordeón. Ideal para eventos sociales y ferias.",
+    detalles: [
+      "Material: Lona OXFORD resistente",
+      "Protección: Impermeable y Rayos UV",
+      "Montaje: Sistema acordeón (menos de 1 min)",
+      "Uso: Versátil para jardín o ferias",
+    ],
+    notaTransporte: "El servicio de traslado es adicional según la ubicación.",
+    imagenes: [
+      "/servicios/carpa-1.jpg",
+      "/servicios/carpa-2.jpg",
+      "/servicios/carpa-3.jpg",
+      "/servicios/carpa-4.jpg",
+      "/servicios/carpa-5.jpg",
+      "/servicios/carpa-6.jpg",
+      "/servicios/carpa-7.jpg",
+    ],
+  },
+  {
+    id: 6,
     nombre: "Mesa Plegable Portátil",
     precio: 25000,
     categoria: "Logística",
@@ -68,7 +130,7 @@ export const servicios = [
     ],
   },
   {
-    id: 4,
+    id: 7,
     nombre: "Turra Gigante (Pirinola)",
     precio: 60000,
     categoria: "Juegos",
@@ -80,12 +142,10 @@ export const servicios = [
       "Material resistente para uso rudo",
       "Ideal para juegos de azar con fichas o dulces",
     ],
-    imagenes: [
-      "/servicios/turra-1.jpg"
-    ],
+    imagenes: ["/servicios/turra-1.jpg"],
   },
   {
-    id: 5,
+    id: 8,
     nombre: "Barril Ahumador (35 Lbs)",
     precio: 80000,
     categoria: "Servicios",
@@ -108,7 +168,7 @@ export const servicios = [
     ],
   },
   {
-    id: 6,
+    id: 9,
     nombre: "Bolirana Manual (24h)",
     precio: 60000,
     categoria: "Juegos",
@@ -128,7 +188,7 @@ export const servicios = [
     ],
   },
   {
-    id: 7,
+    id: 10,
     nombre: "Beer Pong Profesional (24h)",
     precio: 80000,
     categoria: "Juegos",
@@ -147,9 +207,8 @@ export const servicios = [
       "/servicios/beer-pong-4.jpg",
     ],
   },
-
   {
-    id: 8,
+    id: 11,
     nombre: "Rana Tradicional (24h)",
     precio: 60000,
     categoria: "Juegos",
@@ -162,36 +221,8 @@ export const servicios = [
       "/servicios/rana-manual-3.jpg",
     ],
   },
-  
   {
-    id: 9,
-    nombre: "Bolirana Digital (24h)",
-    precio: 80000,
-    categoria: "Juegos",
-    descripcion:
-      "Tecnología de punta con múltiples modos de juego (Bolitejo, Fútbol, Tiro al blanco). Voces animadas y luces LED.",
-    detalles: [
-      "Hasta 50 jugadores",
-      "Sensores de alta precisión",
-      "Sonido y luces LED",
-      "Medidas: 1.50m alto x 1.30m largo",
-    ],
-    imagenes: [
-      "/servicios/bolirana-digital-1.jpg",
-      "/servicios/bolirana-digital-2.jpg",
-      "/servicios/bolirana-digital-3.jpg",
-      "/servicios/bolirana-digital-4.jpg",
-      "/servicios/bolirana-digital-5.jpg",
-      "/servicios/bolirana-digital-6.jpg",
-      "/servicios/bolirana-digital-7.jpg",
-      "/servicios/bolirana-digital-8.jpg",
-      "/servicios/bolirana-digital-9.jpg",
-
-    ],
-  },
-  
-  {
-    id: 10,
+    id: 12,
     nombre: "Rana Digital Profesional (24h)",
     precio: 80000,
     categoria: "Juegos",
@@ -204,7 +235,6 @@ export const servicios = [
       "Conexión Bluetooth",
     ],
     imagenes: [
-      
       "/servicios/rana-digital-5.jpg",
       "/servicios/rana-digital-2.jpg",
       "/servicios/rana-digital-3.jpg",
@@ -213,47 +243,6 @@ export const servicios = [
       "/servicios/rana-digital-7.jpg",
     ],
   },
-  
-  {
-    id: 11,
-    nombre: "Boli Kids - Especial Niños (24h)",
-    precio: 80000,
-    categoria: "Juegos",
-    descripcion:
-      "Bolirana digital diseñada específicamente para los más pequeños con temáticas infantiles y medidas ajustadas.",
-    detalles: [
-      "Medidas: 1.30m alto (ajustada para niños)",
-      "Temática de personajes",
-      "Voces infantiles",
-      "Hasta 50 jugadores",
-    ],
-    imagenes: [
-      "/servicios/boli-kids-3.jpg",
-      "/servicios/boli-kids-2.jpg",
-      "/servicios/boli-kids-5.jpg",
-      "/servicios/boli-kids-6.jpg",
-      "/servicios/boli-kids-7.jpg",
-      "/servicios/boli-kids-9.jpg",
-    ],
-  },
-  
-  {
-    id: 12,
-    nombre: "Canchas de Mini Tejo (24h)",
-    precio: 80000,
-    categoria: "Juegos",
-    descripcion:
-      "Lleva el deporte nacional a tu evento. Canchas completas con greda, mechas y tejos profesionales.",
-    detalles: ["2 Canchas de mini tejo", "1 Pizón", "6 Tejos", "60 Mechas"],
-    imagenes: [
-      "/servicios/minitejo-1.jpg",
-      "/servicios/minitejo-2.jpg",
-      "/servicios/minitejo-3.jpg",
-      "/servicios/minitejo-4.jpg",
-    ],
-  },
-  
-
   {
     id: 13,
     nombre: "Acompañamiento Logístico",
@@ -286,9 +275,7 @@ export const servicios = [
       "Retiro de grasas y jugos",
       "Mantenimiento de higiene",
     ],
-    imagenes: [
-      "/servicios/limpieza.jpg"
-    ],
+    imagenes: ["/servicios/limpieza.jpg"],
   },
   {
     id: 15,
@@ -312,8 +299,6 @@ export const servicios = [
     categoria: "Adicionales",
     descripcion: "Extensión de tiempo para el alquiler de cualquier servicio.",
     detalles: ["Precio por hora adicional"],
-    imagenes: [
-      "/servicios/reloj.jpg"
-    ],
+    imagenes: ["/servicios/reloj.jpg"],
   },
 ];

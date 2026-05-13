@@ -21,10 +21,10 @@ interface GaleriaModalProps {
 }
 
 export function GaleriaModal({ servicio, onClose }: GaleriaModalProps) {
-  
   const [fotoPrincipal, setFotoPrincipal] = useState(servicio.imagenes[0]);
 
   return (
+    
     <div className="fixed inset-0 z-200 flex items-center justify-center p-0 md:p-6">
       <div
         className="absolute inset-0 bg-slate-900/80 backdrop-blur-md"
@@ -47,7 +47,7 @@ export function GaleriaModal({ servicio, onClose }: GaleriaModalProps) {
                 alt={servicio.nombre}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                className="object-cover animate-in fade-in zoom-in duration-300"
+                className="object-contain p-4 animate-in fade-in zoom-in duration-300"
               />
             </div>
 
@@ -121,9 +121,8 @@ export function GaleriaModal({ servicio, onClose }: GaleriaModalProps) {
                     <p className="text-[14px] md:text-[15px] text-amber-800 font-semibold leading-snug">
                       {servicio.notaTransporte}
                     </p>
-                    <p className="text-[16px] text-amber-700/80 mt-1 italic">
-                      * El valor final dependerá de la distancia y facilidad de
-                      acceso.
+                    <p className="text-3xl font-black text-slate-900">
+                      ${servicio.precio.toLocaleString("es-CO")}
                     </p>
                   </div>
                 </div>

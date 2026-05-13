@@ -12,12 +12,15 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="md:w-1/2 text-center md:text-left"
         >
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
             Diversión real con{" "}
             <span className="text-boli-blue">Boli-Diviértete</span>
           </h1>
           <p className="mt-6 text-lg text-gray-600 max-w-lg">
-            ¿Buscas diversión para tu evento? Alquilamos bolirranas, canchas de mini tejo y una gran variedad de juegos tradicionales en Bogotá y la Sabana. Llevamos la fiesta hasta donde estés: en tu casa, en tu evento social o empresarial.
+            ¿Buscas diversión para tu evento? Alquilamos bolirranas, canchas de
+            mini tejo y una gran variedad de juegos tradicionales en Bogotá y la
+            Sabana. Llevamos la fiesta hasta donde estés: en tu casa, en tu
+            evento social o empresarial.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
@@ -37,21 +40,36 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="md:w-1/2 mt-12 md:mt-0 relative"
-        >
-          <div className="w-full h-100 bg-blue-100 rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center">
-            <Image
-              src="/hero_full.jpeg"
-              alt="Bolirana Principal"
-              width={500}
-              height={500}
-              className="object-cover w-full h-full"
-            />
-          </div>
-        </motion.div>
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.8, delay: 0.2 }}
+  className="md:w-1/2 mt-12 md:mt-0 relative px-4 md:px-0"
+>
+  <div className="relative w-full h-87.5 md:h-125 bg-slate-50 flex items-center justify-center overflow-hidden">
+    {/* 
+      En móvil usamos width y height fijos (pero responsivos) 
+      y en PC dejamos que el fill haga su trabajo. 
+    */}
+    <Image
+      src="/hero_full.jpeg"
+      alt="Bolirana Principal"
+      width={400} 
+      height={500}
+      priority
+      className="hidden max-md:block object-contain p-2 scale-110"
+    />
+    
+    <Image
+      src="/hero_full.jpeg"
+      alt="Bolirana Principal"
+      fill
+      className="hidden md:block object-contain p-4 scale-100"
+      sizes="50vw"
+    />
+  </div>
+
+  <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-boli-blue/15 blur-3xl rounded-full z-0" />
+</motion.div>
       </div>
     </section>
   );
