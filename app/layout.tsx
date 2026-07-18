@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       ? "http://localhost:3000" 
       : "https://www.bolidiviertete.com"
   ),
-  title: "Boli-Diviértete - Alquiler de Juegos Tradicionales en Bogotá y la Sabana",
+  title: "Boli-Diviértete - Alquiler de Boliranas y Juegos Tradicionales en Bogotá y la Sabana",
   description: "Alquiler de boliranas, tejos y juegos tradicionales para eventos sociales y empresariales en Bogotá y la Sabana. ¡Lleva la diversión a tu fiesta con Boli-Diviértete!",
   keywords: [
     "alquiler de juegos tradicionales",
