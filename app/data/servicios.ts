@@ -301,4 +301,130 @@ export const servicios = [
     detalles: ["Precio por hora adicional"],
     imagenes: ["/servicios/reloj.jpg"],
   },
+  {
+    id: 23,
+    nombre: "Jenga Gigante por 24 Horas",
+    precio: 80000,
+    categoria: "Juegos",
+    descripcion:
+      "Juego de torre gigante para interiores y exteriores, ideal para reuniones familiares, cumpleaños, picnics y eventos.",
+    detalles: [
+      "Incluye 54 bloques de madera (6.9 x 2.3 x 1.2 pulgadas cada uno)",
+      "Tamaño base de 17.5 x 17.5 x 61 cm (0.6 m de alto inicial que alcanza hasta 1.2 m en juego)",
+      "Bloques numerados en la parte inferior para reglas personalizadas",
+      "Incluye bolsa de transporte de lona negra gruesa con asas resistentes",
+      "El servicio de traslado es adicional según la ubicación",
+    ],
+    imagenes: [
+      "/servicios/jenga-1.jpg", 
+      "/servicios/jenga-2.jpg", 
+      "/servicios/jenga-3.jpg", 
+      "/servicios/jenga-4.jpg"
+    ],
+  },
+  {
+    id: 24,
+    nombre: "Mesa de Ping Pong Medidas Oficiales",
+    precio: 110000,
+    categoria: "Juegos",
+    descripcion:
+      "Mesa de tenis de mesa reglamentaria ideal para uso recreativo o entrenamiento en fiestas y eventos.",
+    detalles: [
+      "Dimensiones abiertas: 274 cm (Largo) x 152.5 cm (Ancho) x 76 cm (Alto)",
+      "Tablero en MDF o similar (espesor 15-18 mm) con estructura de acero reforzado",
+      "Sistema plegable en 2 mitades para almacenamiento vertical",
+      "Equipada con ruedas con freno para fácil transporte",
+      "Incluye red desmontable (altura aprox. de 15.25 cm)",
+    ],
+    imagenes: [
+      "/servicios/ping-pong-1.jpg",
+      "/servicios/ping-pong-2.jpg",
+      "/servicios/ping-pong-3.jpg",
+      "/servicios/ping-pong-4.jpg"
+    ],
+  },
+  {
+    id: 25,
+    nombre: "Bingo Profesional",
+    precio: 100000,
+    categoria: "Juegos",
+    descripcion:
+      "Set completo de bingo para divertirse desde casa o en eventos empresariales, reuniones y fiestas familiares.",
+    detalles: [
+      "20 tablas dinámicas de colores en pasta altamente resistentes",
+      "Esfera grande transparente y muy resistente para excelente visibilidad",
+      "Set de bolas de gran tamaño para fácil lectura de los consecutivos",
+      "El servicio de traslado es adicional según la ubicación",
+    ],
+    imagenes: [
+      "/servicios/bingo-1.jpg",
+      "/servicios/bingo-2.jpg",
+      "/servicios/bingo-3.jpg",
+    ],
+  },
+  {
+    id: 26,
+    nombre: "Mesa de Billar Kids Portable 🎱",
+    precio: 80000,
+    categoria: "Juegos",
+    descripcion:
+      "Mesa de pool portátil adaptada para espacios reducidos con acabados en MDF negro.",
+    detalles: [
+      "Medidas: 121.5 cm (Largo) x 65 cm (Ancho) x 76 cm (Alto)",
+      "Estructura en MDF de color negro tipo pool",
+      "Incluye 2 tacos de billar",
+      "Incluye 1 triángulo y 16 bolas de pool",
+    ],
+    imagenes: [
+      "/servicios/mini-billar-1.jpg",
+      "/servicios/mini-billar-2.jpg",
+      "/servicios/mini-billar-3.jpg",
+      "/servicios/mini-billar-4.jpg",
+      "/servicios/mini-billar-5.jpg"
+    ],
+  },
+  {
+    id: 27,
+    nombre: "Arcade Pedestal por 24 Horas con TV 32\"",
+    precio: 160000,
+    categoria: "Juegos",
+    descripcion:
+      "Máquina arcade tipo pedestal equipada con TV de 32 pulgadas y PC Core i5 de 8va generación con 16GB RAM y 500GB DD.",
+    detalles: [
+      "TV de 32\" con conectividad HDMI, USB y VGA para monitores externos",
+      "Acabado en plotter plastificado 3D con luces LED frontales y laterales",
+      "Sistema de sonido envolvente con 2 parlantes laterales",
+      "Controles estilo americano de alta resistencia con posapié y rodachines de lujo",
+      "Chapa de seguridad con llave y sellos de garantía",
+      "El servicio de traslado es adicional según la ubicación",
+    ],
+    imagenes: [
+      "/servicios/arcade-1.jpg",
+      "/servicios/arcade-2.jpg",
+      "/servicios/arcade-3.jpg",
+      "/servicios/arcade-4.jpg",
+    ],
+  },
+  {
+    id: 28,
+    nombre: "Espuma Diversión para Fiestas",
+    precio: 8000,
+    categoria: "Adicionales",
+    descripcion:
+      "Nieve/espuma suave en aerosol a base de agua, no tóxica y no inflamable para todo tipo de celebraciones.",
+    detalles: [
+      "Lata de 1100 ml (1 litro) en envase metálico",
+      "Fórmula a base de agua desmineralizada, tensoactivos y propelentes",
+      "Soluble en agua, lavable y no mancha la ropa ni los muebles",
+      "Apta para uso seguro en interiores y exteriores",
+    ],
+    imagenes: [
+      "/servicios/espuma-1.jpg",
+      "/servicios/espuma-2.jpg",
+      "/servicios/espuma-3.jpg",
+      "/servicios/espuma-4.jpg",
+      "/servicios/espuma-5.jpg",
+      "/servicios/espuma-6.jpg",
+    ],
+  },
 ];
