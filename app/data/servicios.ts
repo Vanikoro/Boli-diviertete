@@ -426,7 +426,7 @@ export const servicios = [
   },
   {
     id: 22,
-    nombre: "Tiro al Blanco Kids (24h)",
+    nombre: "Tiro al Blanco Kids",
     precio: 60000,
     categoria: "Juegos",
     descripcion:
