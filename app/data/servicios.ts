@@ -269,35 +269,6 @@ export const servicios = [
   },
   {
     id: 14,
-    nombre: "Limpieza Profunda Barril Ahumador",
-    precio: 25000,
-    categoria: "Adicionales",
-    descripcion:
-      "Servicio opcional de lavado y desengrasado del barril realizado por nuestro equipo.",
-    detalles: [
-      "Lavado post-evento",
-      "Retiro de grasas y jugos",
-      "Mantenimiento de higiene",
-    ],
-    imagenes: ["/servicios/limpieza.jpg"],
-  },
-  {
-    id: 15,
-    nombre: "Adicional de Mechas",
-    precio: 5000,
-    categoria: "Adicionales",
-    descripcion:
-      "Paquete de mechas extra para seguir jugando al tejo sin parar.",
-    detalles: ["25 unidades de mechas profesionales"],
-    imagenes: [
-      "/servicios/mechas-1.jpg",
-      "/servicios/mechas-2.jpg",
-      "/servicios/mechas-3.jpg",
-      "/servicios/mechas-4.jpg",
-    ],
-  },
-  {
-    id: 16,
     nombre: "Adicional de Tiempo",
     precio: 10000,
     categoria: "Adicionales",
@@ -306,7 +277,7 @@ export const servicios = [
     imagenes: ["/servicios/reloj.jpg"],
   },
   {
-    id: 23,
+    id: 15,
     nombre: "Jenga Gigante por 24 Horas",
     precio: 80000,
     categoria: "Juegos",
@@ -320,14 +291,14 @@ export const servicios = [
       "El servicio de traslado es adicional según la ubicación",
     ],
     imagenes: [
-      "/servicios/jenga-1.jpg", 
-      "/servicios/jenga-2.jpg", 
-      "/servicios/jenga-3.jpg", 
-      "/servicios/jenga-4.jpg"
+      "/servicios/jenga-1.jpg",
+      "/servicios/jenga-2.jpg",
+      "/servicios/jenga-3.jpg",
+      "/servicios/jenga-4.jpg",
     ],
   },
   {
-    id: 24,
+    id: 16,
     nombre: "Mesa de Ping Pong Medidas Oficiales",
     precio: 110000,
     categoria: "Juegos",
@@ -344,11 +315,11 @@ export const servicios = [
       "/servicios/ping-pong-1.jpg",
       "/servicios/ping-pong-2.jpg",
       "/servicios/ping-pong-3.jpg",
-      "/servicios/ping-pong-4.jpg"
+      "/servicios/ping-pong-4.jpg",
     ],
   },
   {
-    id: 25,
+    id: 17,
     nombre: "Bingo Profesional",
     precio: 100000,
     categoria: "Juegos",
@@ -367,7 +338,7 @@ export const servicios = [
     ],
   },
   {
-    id: 26,
+    id: 18,
     nombre: "Mesa de Billar Kids Portable 🎱",
     precio: 80000,
     categoria: "Juegos",
@@ -384,18 +355,18 @@ export const servicios = [
       "/servicios/mini-billar-2.jpg",
       "/servicios/mini-billar-3.jpg",
       "/servicios/mini-billar-4.jpg",
-      "/servicios/mini-billar-5.jpg"
+      "/servicios/mini-billar-5.jpg",
     ],
   },
   {
-    id: 27,
-    nombre: "Arcade Pedestal por 24 Horas con TV 32\"",
+    id: 19,
+    nombre: 'Arcade Pedestal por 24 Horas con TV 32"',
     precio: 160000,
     categoria: "Juegos",
     descripcion:
       "Máquina arcade tipo pedestal equipada con TV de 32 pulgadas y PC Core i5 de 8va generación con 16GB RAM y 500GB DD.",
     detalles: [
-      "TV de 32\" con conectividad HDMI, USB y VGA para monitores externos",
+      'TV de 32" con conectividad HDMI, USB y VGA para monitores externos',
       "Acabado en plotter plastificado 3D con luces LED frontales y laterales",
       "Sistema de sonido envolvente con 2 parlantes laterales",
       "Controles estilo americano de alta resistencia con posapié y rodachines de lujo",
@@ -410,7 +381,7 @@ export const servicios = [
     ],
   },
   {
-    id: 28,
+    id: 20,
     nombre: "Espuma Diversión para Fiestas",
     precio: 8000,
     categoria: "Adicionales",
@@ -432,7 +403,7 @@ export const servicios = [
     ],
   },
   {
-    id: 29,
+    id: 21,
     nombre: "Tapete Gigante de Escaleras y Serpientes",
     precio: 80000,
     categoria: "Juegos",
@@ -454,7 +425,7 @@ export const servicios = [
     ],
   },
   {
-    id: 30,
+    id: 22,
     nombre: "Tiro al Blanco Kids (24h)",
     precio: 60000,
     categoria: "Juegos",
@@ -475,7 +446,7 @@ export const servicios = [
     ],
   },
   {
-    id: 31,
+    id: 23,
     nombre: "Mini Golfito Kids",
     precio: 60000,
     categoria: "Juegos",
@@ -496,7 +467,7 @@ export const servicios = [
     ],
   },
   {
-    id: 32,
+    id: 24,
     nombre: "Combo de Juegos Recreativos para Niños",
     precio: 80000,
     categoria: "Juegos",
@@ -524,7 +495,7 @@ export const servicios = [
     ],
   },
   {
-    id: 33,
+    id: 25,
     nombre: "Futbolín Profesional",
     precio: 120000,
     categoria: "Juegos",
